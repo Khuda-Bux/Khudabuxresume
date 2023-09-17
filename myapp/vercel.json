@@ -1,14 +1,14 @@
 {
     "builds": [
       {
-        "src": "myapp/wsgi.py",
+        "src": "Khudabuxresume/wsgi.py",
         "use": "@vercel/python"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "myapp/wsgi.py"
+        "dest": "Khudabuxresume/wsgi.py"
       }
     ]
 }
